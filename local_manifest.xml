@@ -5,9 +5,11 @@
 	fetch="https://github.com/LineageOS" />
 	<remote name="nojick"
 		fetch="https://github.com/nojick" />
+		<remote name="dev-msm8916"
+			fetch="https://github.com/dev-msm8916" />
 
 		<project path="device/cyanogen/msm8916-common" name="android_hardware_cyanogen_ido" remote="nojick" revision="ION" clone-depth="1" />
-		<project path="kernel/xiaomi/msm8916" name="android_kernel_xiaomi_msm8916" remote="nojick" revision="mkq-mr1" clone-depth="1" />
+		<project path="kernel/xiaomi/ido" name="android_kernel_xiaomi_ido" remote="dev-msm8916" revision="you" clone-depth="1" />
 		<project path="device/xiaomi/ido" name="android_hardware_device_ido" remote="nojick" revision="ION" clone-depth="1" />
 		<project path="vendor/xiaomi/ido" name="vendor_device_ido" remote="nojick" revision="ION" clone-depth="1" />
 			
